@@ -1,0 +1,533 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\WorkPlace\51\pro\pwm调节小车速度\pwm调节小车速度.uvproj
+Project File Date:  01/31/2017
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+Program Size: data=15.2 xdata=0 code=424
+"pwm调节小车速度" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+Program Size: data=15.2 xdata=0 code=424
+"pwm调节小车速度" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+Program Size: data=15.2 xdata=0 code=424
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+Program Size: data=15.2 xdata=0 code=425
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=15.2 xdata=0 code=391
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=15.2 xdata=0 code=391
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=15.2 xdata=0 code=393
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=15.2 xdata=0 code=393
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(52): error C141: syntax error near 'unsigned'
+MAIN.C(52): error C202: 'i': undefined identifier
+MAIN.C(55): error C202: 'i': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=17.2 xdata=0 code=395
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=17.2 xdata=0 code=401
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=17.2 xdata=0 code=401
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=17.2 xdata=0 code=445
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(54): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=418
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(54): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=418
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(61): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=462
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(61): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=464
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(90): error C141: syntax error near '='
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(48): error C146: 'P3_4': invalid base address
+MAIN.C(50): error C146: 'P3_5': invalid base address
+MAIN.C(86): error C202: 'up': undefined identifier
+MAIN.C(94): error C202: 'down': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(48): error C146: 'P3_4': invalid base address
+MAIN.C(50): error C146: 'P3_5': invalid base address
+MAIN.C(94): error C202: 'down': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(48): error C146: 'P3_4': invalid base address
+MAIN.C(50): error C146: 'P3_5': invalid base address
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(61): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=464
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(61): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=464
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(61): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=464
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(61): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=464
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(61): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=464
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(51): error C231: 'k1': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(50): error C146: 'P3_4': invalid base address
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(51): error C231: 'k1': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(62): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=464
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(62): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=464
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(62): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=464
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(62): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=464
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(62): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=462
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(62): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=459
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(62): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=18.2 xdata=0 code=459
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(30): warning C206: 'sprintf': missing function-prototype
+MAIN.C(30): error C267: 'sprintf': requires ANSI-style prototype
+MAIN.C(30): error C202: 'PWM_T': undefined identifier
+MAIN.C(31): error C202: 'b': undefined identifier
+MAIN.C(32): error C202: 'b': undefined identifier
+MAIN.C(33): error C202: 'b': undefined identifier
+MAIN.C(34): error C202: 'temp': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(32): error C202: 'PWM_T': undefined identifier
+MAIN.C(33): error C202: 'b': undefined identifier
+MAIN.C(34): error C202: 'b': undefined identifier
+MAIN.C(35): error C202: 'b': undefined identifier
+MAIN.C(36): error C202: 'temp': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(33): error C202: 'b': undefined identifier
+MAIN.C(34): error C202: 'b': undefined identifier
+MAIN.C(35): error C202: 'b': undefined identifier
+MAIN.C(36): error C202: 'temp': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(37): error C202: 'temp': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(46): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEMO?MAIN
+Program Size: data=67.3 xdata=0 code=2225
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(83): warning C206: 'send': missing function-prototype
+MAIN.C(47): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEMO?MAIN
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  SEND
+    MODULE:  main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  SEND
+    MODULE:  main.obj (MAIN)
+    ADDRESS: 0F49H
+Program Size: data=69.3 xdata=0 code=2255
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 9 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(47): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DEMO?MAIN
+Program Size: data=69.3 xdata=0 code=2252
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(47): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=52.3 xdata=0 code=2255
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+MAIN.C(47): warning C280: 'i': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BACKRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LEFTRUN?MAIN
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?RIGHTRUN?MAIN
+Program Size: data=52.3 xdata=0 code=2260
+creating hex file from "pwm调节小车速度"...
+"pwm调节小车速度" - 0 Error(s), 5 Warning(s).

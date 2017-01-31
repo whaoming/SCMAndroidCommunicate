@@ -1,0 +1,114 @@
+C51 COMPILER V9.01   MAIN                                                                  01/31/2017 18:16:17 PAGE 1   
+
+
+C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
+OBJECT MODULE PLACED IN main.OBJ
+COMPILER INVOKED BY: D:\work\Keil\C51\BIN\C51.EXE main.c BROWSE DEBUG OBJECTEXTEND
+
+line level    source
+
+   1          #include<AT89X52.H>                   //包含51单片机头文件，内部有各种寄存器定义
+   2          #include<HJ-4WD_PWM.H>            //包含HL-1蓝牙智能小车驱动IO口定义等函数
+   3          #include <stdlib.h>
+   4          #include   <STDIO.H>
+   5                           unsigned int k;
+   6                          
+   7                                   typedef unsigned int  uint16;
+   8                                     sbit k1=P3^4;
+   9                                     sbit k2=P3^5;
+  10                                     char str[5] =  {0xff,0x01,0x02,0x03,0xff};
+  11          char buffer [4];
+  12          int b;
+  13          int a=0;
+  14          void delay_1ms(uint16 t)
+  15          {
+  16   1              uint16 x,y;
+  17   1              for(x=t;x>0;x--)
+  18   1                      for(y=120;y>0;y--);
+  19   1      }
+  20          void sendMing(char me[])
+  21          {
+  22   1              unsigned char i = 0;
+  23   1              while(i<=4)
+  24   1              {
+  25   2                      SBUF = me[i];
+  26   2                      while(!TI);                             // 等特数据传送
+  27   2                      TI = 0;                                 // 清除数据传送标志
+  28   2                      i++;
+  29   2              }
+  30   1      }
+  31          
+  32          void  demo()
+  33          {
+  34   1                      sprintf(buffer, "%x", k*2);
+  35   1                      b = strtol( buffer, NULL, 16 );
+  36   1                      str[3]   = (b & 0xff)>>0;//取低8位
+  37   1                      str[2] = (b & 0xff00)>>8;
+  38   1                      // temp = PWM_T;
+  39   1                      sendMing(str);
+  40   1                      
+  41   1      }
+  42          
+  43          //主函数
+  44                  void main(void)
+  45          {       
+  46   1              
+  47   1              unsigned char i;
+  48   1              k = 15;
+  49   1      
+  50   1                              TMOD=0X21;
+  51   1                      TH0= 0XFc;                //1ms定时
+  52   1                      TL0= 0X18;
+  53   1                      TR0= 1;
+  54   1                      ET0= 1;
+  55   1                     
+C51 COMPILER V9.01   MAIN                                                                  01/31/2017 18:16:17 PAGE 2   
+
+  56   1                         SCON=0x50;
+  57   1                      TH1=0xFD;                       //设置定时器1初始值
+  58   1                      TL1=0xFD;                  //设置定时器1初始值
+  59   1                      TR1=1;  
+  60   1                          EA = 1;                  //开总中断
+  61   1      
+  62   1                       while(1)
+  63   1                       {
+  64   2                              a++;
+  65   2                               run(k);
+  66   2                              if(!k1)
+  67   2                              {
+  68   3                                      if(k<50){
+  69   4                                              k++;
+  70   4                                              //P1_6=0;
+  71   4                                      }
+  72   3                                      delay_1ms(40);  
+  73   3                              }
+  74   2                              if(!k2)
+  75   2                              {
+  76   3                                      if(k>0){
+  77   4                                              k--;
+  78   4                                      }       
+  79   3                                      delay_1ms(40);
+  80   3                              }
+  81   2                              if(a==20000)
+  82   2                              {
+  83   3                                      demo();
+  84   3                                      a=0;
+  85   3                              }
+  86   2                       
+  87   2                       }
+  88   1      }
+*** WARNING C280 IN LINE 47 OF MAIN.C: 'i': unreferenced local variable
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    431    ----
+   CONSTANT SIZE    =      3    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =     21       4
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =      2    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)
