@@ -8,9 +8,10 @@ Android与51单片机的通信
  - Android的蓝牙开发
  - 单片机与Android App的通信方案
 
-# 预览
-![这里写图片描述](http://img.blog.csdn.net/20170131200520434?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXExMjI2MjcwMTg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-![这里写图片描述](http://img.blog.csdn.net/20170131200539794?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvcXExMjI2MjcwMTg=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+# 预览  
+![这里写图片描述](https://raw.githubusercontent.com/whaoming/aboutme/master/image/%E5%B0%8F%E8%BD%A6%E6%88%AA%E5%B1%8F.BMP)
+![这里写图片描述](https://raw.githubusercontent.com/whaoming/aboutme/master/image/led%E6%88%AA%E5%B1%8F.BMP)
+
 
 视频观看：
 > http://v.youku.com/v_show/id_XMjQ5MTgyMTAwMA==.html
