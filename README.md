@@ -1,6 +1,6 @@
 # SCMAndroidCommunicate
 Android与51单片机的通信
-# 前言
+## 前言
 本篇文章将围绕App与单片机的蓝牙通信来说说lz最近进行开发的一些方案与思考
 此文分为三部分:
 
@@ -8,7 +8,7 @@ Android与51单片机的通信
  - Android的蓝牙开发
  - 单片机与Android App的通信方案
 
-# 预览  
+## 预览  
 ![这里写图片描述](https://raw.githubusercontent.com/whaoming/aboutme/master/image/%E5%B0%8F%E8%BD%A6%E6%88%AA%E5%B1%8F.BMP)
 ![这里写图片描述](https://raw.githubusercontent.com/whaoming/aboutme/master/image/led%E6%88%AA%E5%B1%8F.BMP)
 
@@ -18,20 +18,20 @@ Android与51单片机的通信
 
 
 
-# 环境
-## 单片机
+## 环境
+### 单片机
 
  - 单片机：STC89C52
  - c语言
  - 编写环境：Keil uVision4
  - 烧录：stc-isp-15xx-v6.82
 
-## Android
+### Android
  - android sdk 16+
  - Android studio 1.0+
 
 # 单片机的PWM与串口通信
-## PWM
+### PWM
 我相信PWM的概念大家都应该，如果还很模糊也可以去查查，可以看看这篇文章
 
 > http://www.eepw.com.cn/article/275890.htm
@@ -92,10 +92,10 @@ timer0() interrupt 1
 	}
 }
 ```
-## 串口通信
+### 串口通信
 上面我们说了PWM调速，那么要达到app实时显示速度，就必须要单片机把速度传输给手机(在这里先用占空比模拟实时速度，道理是一样的，春节快递停了，测速模块还没到)，那么我的首选方案肯定是单片机通过蓝牙串口发送给app，app接收并进行显示，这里我的蓝牙模块是hc-06。串口通信很容易，但在这个过程中我发现难的地方是数据格式的定义和数据的解析，也就是说要统一使用16进制，还是10进制，数据的头节点和尾节点的定义，或者说数据每一位所代表的参数，在这里先埋个伏笔，文章的后面会对我自己的方案进行介绍.
 
-# Android蓝牙开发
+## Android蓝牙开发
 那么android为我们提供的关于蓝牙的api其实已经很强大了，通常的步骤为：
 
  1. 打开蓝牙
@@ -103,7 +103,7 @@ timer0() interrupt 1
  3. 进行配对
  4. 连接
  5. 数据的发送与接收
-## 开启蓝牙
+### 开启蓝牙
 
 ```
 private BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
@@ -138,7 +138,7 @@ public static boolean isBluetoothOpen() {
 }
 ```
 
-## 搜索附近的蓝牙设备
+### 搜索附近的蓝牙设备
 那么搜索蓝牙设备当然也是调用系统的api即可，然后系统通过广播接收者的方式告诉你，我找到设备了，下面po出代码
 ```
 /**
@@ -175,7 +175,7 @@ public static void searchDevices() {
     }
 ```
 那么当接收到广播的时候，只需调用BluetoothDevice device = intent.getParcelableExtra(BluetoothDevice.EXTRA_DEVICE)就可以取出对应的搜索的蓝牙设备
-## 蓝牙配对
+### 蓝牙配对
 ```
  /**
      * 绑定设备
@@ -202,7 +202,7 @@ public static void searchDevices() {
         return false;
     }
 ```
-## 蓝牙连接
+### 蓝牙连接
 
 ```
 	BluetoothSocket socket;
@@ -215,7 +215,7 @@ public static void searchDevices() {
 		socket= device.createInsecureRfcommSocketToServiceRecord(uuid);
 	}
 ```
-## 数据的发送与接收
+### 数据的发送与接收
 参考了网上很多关于蓝牙数据通信的做法，好多都是每发送一次数据都关闭socket，但是那样我觉得并不好，因为socket的开启与关闭都是比较耗费资源的，那么我的方案是开启一个线程保持socket连接进行蓝牙数据的接收与发送。
 
 ```
@@ -301,8 +301,8 @@ public class TouchMsgThread extends Thread {
 }
 ```
 
-# 单片机与Android的通信方案
-## 制定协议
+## 单片机与Android的通信方案
+### 制定协议
 那么上面我们已经讲了单片机与Android怎么样通过蓝牙进行信息交互了，但是在实际应用中，二者之间传递的信息类型太多了，比如实时速度，电量，还有车子灯光打开，或者修改车子密码等等信息，那么单片机或者app要怎么去判断传递过来的是哪种信息呢？那么我们就必须去制定一套数据协议，这里看看我的方案，协议规定：
 
 | 包头   | 类型位 | 数据位  | 数据位   |  结束位   |  
@@ -321,5 +321,5 @@ public class TouchMsgThread extends Thread {
  0X02    | 0x00|  0X02   |  车灯灭 |  
  0X03   |  雷达数据高位 | 雷达数据低位 |  发送雷达数据 |  
 
-## 协议的解析
+### 协议的解析
 
