@@ -30,7 +30,7 @@ Android与51单片机的通信
  - android sdk 16+
  - Android studio 1.0+
 
-# 单片机的PWM与串口通信
+## 单片机的PWM与串口通信
 ### PWM
 我相信PWM的概念大家都应该，如果还很模糊也可以去查查，可以看看这篇文章
 
